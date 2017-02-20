@@ -17,8 +17,8 @@ galaxy_info:
   - name: opensuse
     versions:
     - all
-  galaxy_tags:
+  categories:
     - ufw
     - firewall
     - linux
-  dependencies: []
+dependencies: []
