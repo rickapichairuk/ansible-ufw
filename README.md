@@ -28,6 +28,18 @@ The example below opens ports 22 (ssh), 80 (http) and 443 (https):
         - 443
 ```
 
+Default Variables
+-----------------
+
+```
+---
+# defaults file for ansible-ufw
+ufw_allowed_ports:
+  - 22
+  - 80
+  - 443
+```
+
 License
 -------
 
