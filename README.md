@@ -19,7 +19,7 @@ Example Playbook
 The example below opens ports 22 (ssh), 80 (http) and 443 (https):
 
 ```yaml
-- hosts: loadbalancers
+- hosts: webservers
   roles:
     - role: ansible-ufw
       ufw_allowed_ports:
