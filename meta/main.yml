@@ -3,7 +3,6 @@ galaxy_info:
   description: Ansible Role to enable ufw and open specified ports
   license: BSD
   min_ansible_version: 1.2
-
   platforms:
   - name: Fedora
     versions:
@@ -17,10 +16,8 @@ galaxy_info:
   - name: opensuse
     versions:
     - all
-
   galaxy_tags:
     - ufw
     - firewall
     - linux
-
 dependencies: []
